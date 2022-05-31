@@ -51,8 +51,19 @@ body {
     list-style-type: none;
     cursor: pointer;
     border: solid 1px;
+    font: 16px Verdana;
 }
 .item-menu{
     background-color: white;
     color: red;
+}
+
+.item-menu:nth-child(2){
+    background-color: white;
+    color: #d14836;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
 }
