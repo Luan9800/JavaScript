@@ -31,19 +31,19 @@
         var v3 = 400;
         console.log("v3 - " + v3);
 
-        let nome = prompt ("Digite seu nome:");
+        let nome = prompt("Digite seu nome:");
         let sexo = prompt("Digite seu sexo:(F-Feminino e M-Masculino)");
 
-        let mensagem ;
+        let mensagem;
 
-    if (sexo == 'F') {
-        mensagem = "Bem Vinda " + nome; //Abrindo Chaves vc cria espaço na reposta !
-    }else if (sexo == 'M') {
-        mensagem = "Bem Vindo " + nome;
-    } else{
-        mensagem = "Valor do sexo não identificado.";
-    }
-        
+        if (sexo == 'F') {
+            mensagem = "Bem Vinda " + nome; //Abrindo Chaves vc cria espaço na reposta !
+        } else if (sexo == 'M') {
+            mensagem = "Bem Vindo " + nome;
+        } else {
+            mensagem = "Valor do sexo não identificado.";
+        }
+
         document.getElementById("dados").innerHTML = mensagem;
 
     </script>
